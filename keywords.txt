@@ -1,0 +1,3 @@
+Display7s	KEYWORD1
+prueba		KEYWORD2
+mostrar		KEWORD2
