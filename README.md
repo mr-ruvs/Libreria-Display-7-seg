@@ -8,3 +8,5 @@ Que enciende los leds correspondientes para visualizar un 0, 1, 2, 3, 4, 5, 6, 7
 
 prueba(tiempo)
 Enciende segmento por segmento en un intervalo de tiempo seleccionado por el usuario.
+
+Al momento de declarar los pines se puede decidir no incluir el dp en caso que no tenga alguna utilidad futura.
