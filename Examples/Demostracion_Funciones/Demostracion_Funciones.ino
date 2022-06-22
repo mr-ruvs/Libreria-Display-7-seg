@@ -14,4 +14,6 @@ void loop() {
     d1.mostrar(i);                         // muestra los numeros hexadecimal
     delay(500);                            // una espera de 500 ms
   }
+  d1.apagado();
+  delay(1000);
 }
