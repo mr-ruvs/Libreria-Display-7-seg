@@ -62,3 +62,14 @@ boolean Display7s::catanodo(bool control, int columna, int fila) {     // Catodo
   }
   return (selecatanodo);      // retorna un 0 o un 1 dependiendo si es Catodo o Anodo
 }
+void Display7s::apagado(){
+  if (_ptdy == 1) {
+    for ( int i = 0; i < 8; i++) {
+      digitalWrite(_pinesdisplay[i], _ano_cato);
+    }
+  } else {
+    for ( int i = 0; i < 7; i++) {
+      digitalWrite(_pinesdisplay[i], _ano_cato);
+    }
+  }
+}
