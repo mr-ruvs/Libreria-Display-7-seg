@@ -15,6 +15,7 @@ class Display7s
     Display7s(byte *pinesdisplay, boolean ano_cato, boolean ptdy);
     void prueba(int retardar);
     void mostrar(int x);
+    void apagado();
     boolean catanodo(bool control, int columna, int fila);
   private:
     byte *_pinesdisplay;
